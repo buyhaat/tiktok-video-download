@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TikDown - TikTok Video Downloader</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">↓</span>
+            <span>TikDown</span>
+        </div>
+
+        <span class="badge">Fast & Simple</span>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="small-badge">
+                <span></span>
+                TikTok Video Downloader
+            </div>
+
+            <h1>
+                Download your
+                <strong>favorite videos.</strong>
+            </h1>
+
+            <p class="subtitle">
+                Paste your TikTok video link below and get started.
+            </p>
+
+
+            <div class="downloader">
+
+                <div class="input-area">
+
+                    <input
+                        type="text"
+                        id="videoUrl"
+                        placeholder="Paste TikTok video URL here..."
+                    >
+
+                    <button id="downloadBtn">
+                        Download
+                    </button>
+
+                </div>
+
+                <p class="example">
+                    Example:
+                    https://www.tiktok.com/@username/video/123456789
+                </p>
+
+                <div id="message"></div>
+
+            </div>
+
+
+            <div id="result" class="result">
+
+                <div class="video-icon">
+                    ▶
+                </div>
+
+                <div class="result-info">
+
+                    <h3>Video URL detected</h3>
+
+                    <p>
+                        The TikTok link is valid. A backend downloader
+                        is required to retrieve the actual video file.
+                    </p>
+
+                    <button id="copyBtn">
+                        Copy URL
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="features">
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ⚡
+                    </div>
+
+                    <h3>Fast</h3>
+
+                    <p>
+                        Simple and lightweight interface.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🔗
+                    </div>
+
+                    <h3>Easy to Use</h3>
+
+                    <p>
+                        Just paste your TikTok video URL.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        📱
+                    </div>
+
+                    <h3>Responsive</h3>
+
+                    <p>
+                        Works nicely on mobile and desktop.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        © 2026 TikDown — Use only content you have permission to download.
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
